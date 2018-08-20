@@ -1,4 +1,5 @@
 def starts_with_a_vowel?(word)
+word.match/(\w+aeiou)/
 
 end
 
@@ -15,5 +16,5 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-
+  
 end
